@@ -54,7 +54,7 @@ jobs:
           timoni list -A
       - name: Upgrade module with custom values
         run: |
-          echo 'values: logLevel: 6' | timoni -n test apply trust-manager oci://localhost:5000/trust-manager -v 1.0.0 -f-
+          echo 'values: replicaCount: 2' | timoni -n test apply trust-manager oci://localhost:5000/trust-manager -v 1.0.0 -f-
       - name: Upgrade module with debug values
         run: |
           timoni -n test apply trust-manager oci://localhost:5000/trust-manager -f ./debug_values.cue
