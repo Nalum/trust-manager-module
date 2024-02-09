@@ -18,7 +18,7 @@ This module is applied to these Kubernetes version in CI:
 To create an instance using the default values:
 
 ```shell
-timoni -n default apply trust-manager oci://<container-registry-url>
+timoni -n trust-manager apply trust-manager oci://ghcr.io/nalum/timoni/modules/trust-manager
 ```
 
 To change the [default configuration](#configuration),
@@ -38,7 +38,7 @@ values: {
 And apply the values with:
 
 ```shell
-timoni -n default apply trust-manager oci://<container-registry-url> \
+timoni -n trust-manager apply trust-manager oci://ghcr.io/nalum/timoni/modules/trust-manager
 --values ./my-values.cue
 ```
 
@@ -47,7 +47,7 @@ timoni -n default apply trust-manager oci://<container-registry-url> \
 To uninstall an instance and delete all its Kubernetes resources:
 
 ```shell
-timoni -n default delete trust-manager
+timoni -n trust-manager delete trust-manager
 ```
 
 ## Configuration
