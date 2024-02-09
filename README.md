@@ -1,6 +1,17 @@
 # trust-manager
 
+[![trust-manager](https://img.shields.io/badge/trust--manager-v0.8.0-00bfff)](https://cert-manager.io/docs/trust/trust-manager/)
+[![timoni.sh](https://img.shields.io/badge/timoni.sh-v0.19.0-7e56c2)](https://timoni.sh)
+[![License](https://img.shields.io/github/license/nalum/trust-manager-module)](https://github.com/nalum/trust-manager-module/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/nalum/trust-manager-module)](https://github.com/nalum/trust-manager-module/releases)
+
 A [timoni.sh](http://timoni.sh) module for deploying trust-manager to Kubernetes clusters.
+
+This module is applied to these Kubernetes version in CI:
+
+- [![kubernetes](https://img.shields.io/badge/kubernetes-v1.27.10-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io)
+- [![kubernetes](https://img.shields.io/badge/kubernetes-v1.28.6-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io)
+- [![kubernetes](https://img.shields.io/badge/kubernetes-v1.29.1-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io)
 
 ## Install
 
